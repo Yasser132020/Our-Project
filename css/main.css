@@ -1,0 +1,77 @@
+body
+{
+    height: 5000px;
+}
+.overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* Start Navbar */
+.navbar-dark .navbar-brand 
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .active
+{
+    color: #e65f78 !important; 
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    transition: 0.5s color;
+    margin: 0 7px;
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e65f78 !important;
+}
+/* Start Header */ 
+header
+{
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.header-content
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+}
+.header-content h1
+{
+    font-size: 3.8rem;
+}
+.header-content p
+{
+    color: #ffffffbf;
+    width: 55%;
+    margin: auto;
+    line-height: 1.8;
+}
+.header-content button
+{
+    width: 26%;
+    padding: 15px 5px;
+    border: 2px solid #f5f5f5;;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.5s all;
+}
+
+.header-content button:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+/* End Header */ 
